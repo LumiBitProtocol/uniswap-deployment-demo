@@ -1,4 +1,4 @@
-export const PRIVATE_KEY = "0xb96b4fb1571bafa94c7d07d81454777b6e8f8ccce3f6b0d5a762a29c8ef82e86"
+export const PRIVATE_KEY = ""
 
 export const  USDC_ADDRESS = 'tb1qhwylftpwqyukaz85t47pwvlccpw6v5kf7a0g4d'
 
