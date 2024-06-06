@@ -35,7 +35,7 @@ const getContractFactory = async (hre: HardhatRuntimeEnvironment, name: string, 
     return contractFactory;
 }
 async function main() {
-    const deployer = new Wallet(PRIVATE_KEY, new JsonRpcProvider('https://test-rpc.lumibit.xyz', BTCNetwork.Testnet))
+    const deployer = new Wallet(PRIVATE_KEY, new JsonRpcProvider('https://rpc.devnet.lumibit.xyz', BTCNetwork.Testnet))
 
     console.log("Deploying contracts with the account:", deployer.address);
     // Deploy Uniswap V2 Factory
